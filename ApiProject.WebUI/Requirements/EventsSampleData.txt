@@ -1,0 +1,41 @@
+﻿{
+  "etkinlikler": [
+    {
+      "title": "Unutulmaz Doğum Günü Partisi",
+      "description": "Sevdiklerinizle baş başa, özel süslemeler ve size özel pasta seçeneği ile kutlanacak unutulmaz bir doğum günü deneyimi.",
+      "imageUrl": "https://ornekrestoran.com/images/dogum-gunu.jpg",
+      "status": "Aktif",
+      "price": "Başlangıç: 2.500 TL"
+    },
+    {
+      "title": "Kurumsal Toplantı ve İş Yemekleri",
+      "description": "Sessiz ve profesyonel bir ortamda, sunum imkanları ve set menü seçenekleri ile başarılı iş toplantıları için ideal alan.",
+      "imageUrl": "https://ornekrestoran.com/images/toplanti-yemegi.jpg",
+      "status": "Aktif",
+      "price": "Kişi başı: 450 TL"
+    },
+    {
+      "title": "Romantik Evlilik Teklifi",
+      "description": "Boğaz manzaralı özel masamızda, canlı müzik eşliğinde hayatınızın en önemli 'Evet' cevabı için titizlikle hazırlanmış bir akşam.",
+      "imageUrl": "https://ornekrestoran.com/images/evlilik-teklifi.jpg",
+      "status": "Aktif",
+      "price": "4.000 TL (Paket)"
+    },
+    {
+      "title": "Butik Düğün ve Nikah Yemeği",
+      "description": "Yakın çevrenizle gerçekleştireceğiniz, modern ve şık bir düğün veya nikah sonrası kutlama yemeği.",
+      "imageUrl": "https://ornekrestoran.com/images/dugun-organizasyonu.jpg",
+      "status": "Ön Başvuru",
+      "price": "Teklif Alınız"
+    },
+    {
+      "title": "Canlı Müzik ve Akşam Yemeği",
+      "description": "Her Cuma akşamı seçkin müzisyenlerin performansları eşliğinde lezzetli bir gastronomik yolculuk.",
+      "imageUrl": "https://ornekrestoran.com/images/canli-muzik.jpg",
+      "status": "Aktif",
+      "price": "Giriş: 200 TL"
+    }
+  ]
+}
+
+/yummy-red-1.0.0/assets/img/events-1.jpg

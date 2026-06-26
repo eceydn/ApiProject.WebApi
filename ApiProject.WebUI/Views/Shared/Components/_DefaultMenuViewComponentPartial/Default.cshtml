@@ -1,0 +1,80 @@
+@model List<ApiProject.WebUI.Dtos.ProductDtos.ResultProductWithCategoryDto>
+
+<section id="menu" class="menu section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Menümüz</h2>
+        <p><span>Lezzetli</span> <span class="description-title">Tatlar</span></p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+        @await Component.InvokeAsync("_DefaultMenuCategoryComponentPartial")
+
+        @if (Model != null && Model.Any())
+        {
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="tab-pane fade active show" id="menu-all">
+
+                    <div class="tab-header text-center">
+                        <p>Menü</p>
+                        <h3>Tüm Menü</h3>
+                    </div>
+
+                    <div class="row gy-5">
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-lg-4 menu-item">
+                                <a href="@item.ImageUrl" class="glightbox"><img src="@item.ImageUrl" class="menu-img img-fluid" alt=""></a>
+                                <h4>@item.ProductName</h4>
+                                <p class="ingredients">
+                                    @item.ProductDescription
+                                </p>
+                                <p class="price">
+                                    @item.Price.ToString("C2")
+                                </p>
+                            </div><!-- Menu Item -->
+                        }
+                    </div>
+                </div>
+
+                @foreach (var categoryGroup in Model.GroupBy(x => new { x.CategoryId, x.CategoryName }))
+                {
+                    <div class="tab-pane fade" id="menu-category-@categoryGroup.Key.CategoryId">
+
+                        <div class="tab-header text-center">
+                            <p>Menü</p>
+                            <h3>@categoryGroup.Key.CategoryName</h3>
+                        </div>
+
+                        <div class="row gy-5">
+                            @foreach (var item in categoryGroup)
+                            {
+                                <div class="col-lg-4 menu-item">
+                                    <a href="@item.ImageUrl" class="glightbox"><img src="@item.ImageUrl" class="menu-img img-fluid" alt=""></a>
+                                    <h4>@item.ProductName</h4>
+                                    <p class="ingredients">
+                                        @item.ProductDescription
+                                    </p>
+                                    <p class="price">
+                                        @item.Price.ToString("C2")
+                                    </p>
+                                </div><!-- Menu Item -->
+                            }
+                        </div>
+                    </div>
+                }
+
+            </div>
+        }
+        else
+        {
+            <div class="text-center py-5">
+                <p>Menü öğeleri yüklenemedi. @ViewBag.ErrorMessage</p>
+            </div>
+        }
+
+    </div>
+
+</section>

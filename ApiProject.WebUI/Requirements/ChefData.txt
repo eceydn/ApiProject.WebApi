@@ -1,0 +1,22 @@
+﻿[
+  {
+    "nameSurname": "Mehmet Demir",
+    "title": "Baş Şef (Executive Chef)",
+    "description": "20 yılı aşkın mutfak deneyimiyle Akdeniz ve Türk mutfağının modern yorumlarında uzmanlaşmıştır. Michelin yıldızlı restoranlarda eğitim almıştır.",
+    "imageUrl": "/images/chefs/mehmet-demir.jpg"
+  },
+  {
+    "nameSurname": "Ayşe Yılmaz",
+    "title": "Sous Şef",
+    "description": "Fransız mutfağı tekniklerine hakim, yaratıcı tabak sunumları ve sos hazırlama konusunda restoranımızın mutfak süreçlerini yönetmektedir.",
+    "imageUrl": "/images/chefs/ayse-yilmaz.jpg"
+  },
+  {
+    "nameSurname": "Caner Güneş",
+    "title": "Pastane Şefi",
+    "description": "Geleneksel tatlıları modern moleküler gastronomi teknikleriyle birleştiren, çikolata ve hamur işi sanatında ödüllü bir uzman.",
+    "imageUrl": "/images/chefs/caner-gunes.jpg"
+  }
+]
+
+/yummy-red-1.0.0/assets/img/chefs/chefs-1.jpg

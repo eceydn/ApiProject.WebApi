@@ -1,0 +1,37 @@
+﻿[
+  {
+    "TestimonialId": 1,
+    "NameSurname": "Ahmet Yılmaz",
+    "Title": "Gastronomi Yazarı",
+    "Comment": "Şehrin en özgün lezzet duraklarından biri. Özellikle başlangıç tabakları damakta unutulmaz bir iz bırakıyor.",
+    "ImageUrl": "test"
+  },
+  {
+    "TestimonialId": 2,
+    "NameSurname": "Ayşe Demir",
+    "Title": "Mühendis",
+    "Comment": "Hizmet kalitesi ve sunumlar tek kelimeyle harika. İş yemekleri için her zaman ilk tercihim.",
+    "ImageUrl": "test"
+  },
+  {
+    "TestimonialId": 3,
+    "NameSurname": "Caner Soydan",
+    "Title": "Gezgin & Blogger",
+    "Comment": "Samimi atmosferi ve modern dokunuşlarla hazırlanan geleneksel tarifleri beni kendine hayran bıraktı.",
+    "ImageUrl": "test"
+  },
+  {
+    "TestimonialId": 4,
+    "NameSurname": "Zeynep Aras",
+    "Title": "Sanat Yönetmeni",
+    "Comment": "Yemeklerin lezzeti kadar tabak tasarımları da birer sanat eseri gibi. Görsel ve gastronomik bir şölen.",
+    "ImageUrl": "test"
+  },
+  {
+    "TestimonialId": 5,
+    "NameSurname": "Mehmet Güneş",
+    "Title": "İşletmeci",
+    "Comment": "Malzeme kalitesine verilen önem her lokmada hissediliyor. Lezzet tutkunları için gerçek bir vaha.",
+    "ImageUrl": "test"
+  }
+]

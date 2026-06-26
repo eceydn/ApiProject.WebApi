@@ -1,4 +1,4 @@
-﻿
+
 using ApiProject.WebApi.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,7 +8,7 @@ namespace ApiProject.WebApi.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LAPTOP-K10GFD0M\\MSSQLSERVER01;initial catalog=ApiDb; integrated security=True;");
+            optionsBuilder.UseSqlServer("Server=LAPTOP-K10GFD0M\\MSSQLSERVER01;initial catalog=ApiDb; integrated security=True;TrustServerCertificate=True;");
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Chef> Chefs { get; set; }
@@ -20,5 +20,6 @@ namespace ApiProject.WebApi.Context
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Service> Services { get; set; }
         public DbSet<Testimonial> Testimonials { get; set; }
+        public DbSet<BaharatYoluEvent> BaharatYoluEvents { get; set; }
     }
 }
